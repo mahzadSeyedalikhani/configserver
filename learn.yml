@@ -1,0 +1,17 @@
+spring:
+  rabbitmq:
+    host: rabbitmq
+    port: 5672
+    username: guest
+    password: guest
+
+
+#spring.rabbitmq.host=localhost
+#spring.rabbitmq.port=5672
+#spring.rabbitmq.username=guest
+#spring.rabbitmq.password=guest
+#javainsue.rabbitmq.exchange= digipay.exchange
+#javainuse.rabbitmq.queue=digipay.queue
+#javainuse.rabbitmq.routingkey= digipay.routingkey
+test:
+  message: "hi in base properties"
